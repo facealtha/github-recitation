@@ -12,6 +12,7 @@ def fibonacci(position):
     return 1
   elif position ==-1: 
     return None
+    
   return fibonacci(position - 1) + fibonacci(position - 2)
 
 
