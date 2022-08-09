@@ -1,4 +1,4 @@
-
+git
 """
 Fibonacci number generator
 When given a position, the function returns the fibonacci at that position in the sequence.
@@ -10,8 +10,8 @@ def fibonacci(position):
     return 0
   if(position == 1 or position == 2):
     return 1
-  elif position ==-1: 
-    return None
+  elif position ==0: 
+    return 0
   return fibonacci(position - 1) + fibonacci(position - 2)
 
 
